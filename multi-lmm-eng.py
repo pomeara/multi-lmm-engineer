@@ -70,14 +70,14 @@ preprompt = """When you are asked to provide code for files, please adhere stric
 
 4. **Example**:
 <tags>
-src/main.py:
-  extension: py
+src/main.cs:
+  extension: cs
   code: |
-    print('Hello, World!')\\nprint('This is a new line')
-src/utils/helper.py:
-  extension: py
+    console.print("Hello, World!")\\n console.print("This is a new line")
+src/utils/helper.cs:
+  extension: cs
   code: |
-    def helper_function():\\n    return 'I am helping!'
+    void helper_function() { return "I am helping!" } 
 </tags>
 
 5. **Folder Creation**: You can create folders by including them in the file paths. The system will automatically create any necessary directories.
